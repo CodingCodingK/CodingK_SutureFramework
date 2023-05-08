@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YooAsset", "YooAsset.csproj", "{f2f40ed0-6514-2de7-ced0-b48801a18658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Main.csproj", "{8e71093b-20d9-16e6-a810-d7f4d4068e89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotfix", "Hotfix.csproj", "{7f55447e-b48f-2776-12c0-360ee4b3bf07}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{4b7660da-9530-e768-bec9-62b30c19022c}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterStreamingAssets", "BetterStreamingAssets.csproj", "{549e9865-1268-f054-5777-473f4be27bc4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.logviewer.runtime", "com.logviewer.runtime.csproj", "{429b1fea-a13a-1bfc-4ca5-c5983c91b410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YooAsset.Editor", "YooAsset.Editor.csproj", "{0e4138a4-c98b-7b1f-f088-72b6b97a7227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.logviewer.editor", "com.logviewer.editor.csproj", "{68e9987f-1b40-77a1-b54c-0e50d8c7e32a}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{94cd5f66-9b6b-e204-98f8-77f3076d9613}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f2f40ed0-6514-2de7-ced0-b48801a18658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{f2f40ed0-6514-2de7-ced0-b48801a18658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8e71093b-20d9-16e6-a810-d7f4d4068e89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8e71093b-20d9-16e6-a810-d7f4d4068e89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7f55447e-b48f-2776-12c0-360ee4b3bf07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7f55447e-b48f-2776-12c0-360ee4b3bf07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4b7660da-9530-e768-bec9-62b30c19022c}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4b7660da-9530-e768-bec9-62b30c19022c}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{549e9865-1268-f054-5777-473f4be27bc4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{549e9865-1268-f054-5777-473f4be27bc4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{429b1fea-a13a-1bfc-4ca5-c5983c91b410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{429b1fea-a13a-1bfc-4ca5-c5983c91b410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0e4138a4-c98b-7b1f-f088-72b6b97a7227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0e4138a4-c98b-7b1f-f088-72b6b97a7227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68e9987f-1b40-77a1-b54c-0e50d8c7e32a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68e9987f-1b40-77a1-b54c-0e50d8c7e32a}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94cd5f66-9b6b-e204-98f8-77f3076d9613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94cd5f66-9b6b-e204-98f8-77f3076d9613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
