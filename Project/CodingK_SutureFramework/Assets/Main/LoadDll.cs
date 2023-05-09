@@ -18,13 +18,14 @@ public class LoadDll : MonoBehaviour
  
     public string HotDllName = "Hotfix.dll";
  
- 
-    //补充元数据dll的列表，Yooasset中不需要带后缀
+    
+    // TODO 补充元数据dll的列表
     public static List<string> AOTMetaAssemblyNames { get; } = new List<string>()
     {
         "mscorlib.dll",
         "System.dll",
         "System.Core.dll",
+        "UniTask.dll",
     };
  
     //获取资源二进制

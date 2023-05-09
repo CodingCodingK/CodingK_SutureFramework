@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": "file:C:/Users/YAN JUNJIE/Downloads/UniTask-master/UniTask-master/src/UniTask/Assets/Plugins/UniTask",
     "com.focus-creative-games.hybridclr_unity": "https://gitee.com/focus-creative-games/hybridclr_unity.git",
     "com.unity.collab-proxy": "2.0.0",
     "com.unity.feature.development": "1.0.1",

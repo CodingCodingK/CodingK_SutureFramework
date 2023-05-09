@@ -44,16 +44,19 @@
      <Compile Include="Assets\HybridCLRData\Generated\AOTGenericReferences.cs" />
      <Folder Include="Assets" />
      <None Include="Packages\Unity-Logs-Viewer\package.json" />
-     <Folder Include="Assets\Code" />
+     <Folder Include="Assets\AssetPackage\Code" />
+     <None Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\package.json" />
      <Folder Include="Assets\YooAsset\Samples" />
      <Folder Include="Packages\Unity-Logs-Viewer\Images" />
      <None Include="Assets\YooAsset\package.json" />
      <Folder Include="Packages\Unity-Logs-Viewer\Document" />
      <Folder Include="Assets\HybridCLRData\Generated" />
      <Folder Include="Assets\HybridCLRData" />
-     <Folder Include="Assets\Images" />
+     <Folder Include="Assets\AssetPackage\Images" />
+     <Folder Include="Assets\AssetPackage" />
+     <Folder Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask" />
      <None Include="Packages\com.gwiazdorrr.betterstreamingassets\package.json" />
-     <Folder Include="Assets\Prefabs" />
+     <Folder Include="Assets\AssetPackage\Prefabs" />
      <Folder Include="Packages\com.gwiazdorrr.betterstreamingassets\Tests" />
      <Folder Include="Assets\YooAsset" />
      <None Include="Assets\link.xml" />
@@ -817,6 +820,26 @@
     <ProjectReference Include="BetterStreamingAssets.csproj">
       <Project>{549e9865-1268-f054-5777-473f4be27bc4}</Project>
       <Name>BetterStreamingAssets</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{8d012bbf-7f0a-4890-5f08-556090ea4225}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Addressables.csproj">
+      <Project>{00a1ec2a-b26b-f07c-c745-bbf9359822e9}</Project>
+      <Name>UniTask.Addressables</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{80be1e48-6dd4-4abc-8370-43d704ee608f}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{c69bc76a-d8d6-79c0-478d-8af3f832a47f}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{5beca5b5-4ecc-2ea7-ee95-dda9840cd8bd}</Project>
+      <Name>UniTask</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

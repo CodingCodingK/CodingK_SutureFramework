@@ -12,11 +12,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{94cd5f66-9b6b-e204-98f8-77f3076d9613}</ProjectGuid>
+    <ProjectGuid>{c69bc76a-d8d6-79c0-478d-8af3f832a47f}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+    <AssemblyName>UniTask.Linq</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -25,12 +25,12 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>Temp\Bin\Debug\Assembly-CSharp-Editor\</OutputPath>
+    <OutputPath>Temp\Bin\Debug\UniTask.Linq\</OutputPath>
     <DefineConstants>UNITY_2021_3_19;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;UNITY_UGP_API;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_IG;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
   </PropertyGroup>
   <PropertyGroup>
@@ -41,10 +41,85 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Editor\HybridCLR\BuildAssetsCommand.cs" />
-     <Compile Include="Assets\Editor\HybridCLR\BuildPlayerCommand.cs" />
-     <Folder Include="Assets\Editor" />
-     <Folder Include="Assets\Editor\HybridCLR" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Queue.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\AppendPrepend.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\DefaultIfEmpty.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Never.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Count.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\GroupJoin.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\GroupBy.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Distinct.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Return.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Do.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ToUniTaskAsyncEnumerable.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ToObservable.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\SkipUntil.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Zip.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ToDictionary.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Except.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Aggregate.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\OrderBy.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Union.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Throw.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\SkipLast.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\TakeLast.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Empty.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\SelectMany.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Select.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\First.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ToHashSet.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ForEach.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ElementAt.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\SkipUntilCanceled.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ToLookup.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Concat.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\DistinctUntilChanged.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Create.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\UnityExtensions\Timer.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\All.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Pairwise.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Sum.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\CombineLatest.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Max.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Publish.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Repeat.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\SkipWhile.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Reverse.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Subscribe.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Last.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\OfType.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\AsyncEnumeratorBase.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\TakeWhile.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\AsUniTaskAsyncEnumerable.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Cast.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ToList.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Single.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\MinMax.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Any.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Join.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\TakeUntilCanceled.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Skip.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\ToArray.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\UnityExtensions\EveryValueChanged.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Where.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\LongCount.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Buffer.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Average.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Contains.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\TakeUntil.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Take.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Range.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Min.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\UnityExtensions\EveryUpdate.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Intersect.cs" />
+     <Compile Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\SequenceEqual.cs" />
+     <None Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\CombineLatest.tt" />
+     <None Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Average.tt" />
+     <Folder Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\UnityExtensions" />
+     <None Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\Sum.tt" />
+     <None Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\MinMax.tt" />
+     <Folder Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq" />
+     <None Include="C:\Users\YAN JUNJIE\Downloads\UniTask-master\UniTask-master\src\UniTask\Assets\Plugins\UniTask\Runtime\Linq\UniTask.Linq.asmdef" />
      <Reference Include="UnityEngine">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
      </Reference>
@@ -68,9 +143,6 @@
      </Reference>
      <Reference Include="UnityEngine.AudioModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AudioModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.AutoStreamingModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.AutoStreamingModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ClothModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
@@ -122,9 +194,6 @@
      </Reference>
      <Reference Include="UnityEngine.LocalizationModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.LocalizationModule.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEngine.NVIDIAModule">
-     <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.NVIDIAModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.ParticleSystemModule">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\Managed\UnityEngine\UnityEngine.ParticleSystemModule.dll</HintPath>
@@ -341,9 +410,6 @@
      </Reference>
      <Reference Include="ReportGeneratorMerged">
      <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2\lib\ReportGenerator\ReportGeneratorMerged.dll</HintPath>
-     </Reference>
-     <Reference Include="nunit.framework">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\PackageCache\com.unity.ext.nunit@1.0.6\net35\unity-custom\nunit.framework.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Android.Types">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
@@ -726,146 +792,14 @@
      <Reference Include="System.Xml.XPath.XDocument">
      <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.19f1c1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
-     <Reference Include="UnityEngine.TestRunner">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\UnityEngine.TestRunner.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.TestRunner">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\UnityEditor.TestRunner.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.Flow.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="HybridCLR.Runtime">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\HybridCLR.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="UnityEditor.CacheServer">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\UnityEditor.CacheServer.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualStudio.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Performance.Profile-Analyzer.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Core.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TextMeshPro">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.State.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Flow">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.Flow.dll</HintPath>
-     </Reference>
      <Reference Include="UnityEditor.UI">
      <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.PlasticSCM.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Rider.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="HybridCLR.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\HybridCLR.Editor.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.Core">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.EditorCoroutines.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.EditorCoroutines.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.Shared.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Timeline.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ScriptableBuildPipeline.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.ScriptableBuildPipeline.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:\Github\CodingK_SutureFramework\Project\CodingK_SutureFramework\Library\ScriptAssemblies\Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{4b7660da-9530-e768-bec9-62b30c19022c}</Project>
-      <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="YooAsset.Editor.csproj">
-      <Project>{0e4138a4-c98b-7b1f-f088-72b6b97a7227}</Project>
-      <Name>YooAsset.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.logviewer.runtime.csproj">
-      <Project>{429b1fea-a13a-1bfc-4ca5-c5983c91b410}</Project>
-      <Name>com.logviewer.runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="com.logviewer.editor.csproj">
-      <Project>{68e9987f-1b40-77a1-b54c-0e50d8c7e32a}</Project>
-      <Name>com.logviewer.editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Hotfix.csproj">
-      <Project>{7f55447e-b48f-2776-12c0-360ee4b3bf07}</Project>
-      <Name>Hotfix</Name>
-    </ProjectReference>
-    <ProjectReference Include="Main.csproj">
-      <Project>{8e71093b-20d9-16e6-a810-d7f4d4068e89}</Project>
-      <Name>Main</Name>
-    </ProjectReference>
-    <ProjectReference Include="YooAsset.csproj">
-      <Project>{f2f40ed0-6514-2de7-ced0-b48801a18658}</Project>
-      <Name>YooAsset</Name>
-    </ProjectReference>
-    <ProjectReference Include="BetterStreamingAssets.csproj">
-      <Project>{549e9865-1268-f054-5777-473f4be27bc4}</Project>
-      <Name>BetterStreamingAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{8d012bbf-7f0a-4890-5f08-556090ea4225}</Project>
-      <Name>UniTask.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Addressables.csproj">
-      <Project>{00a1ec2a-b26b-f07c-c745-bbf9359822e9}</Project>
-      <Name>UniTask.Addressables</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.DOTween.csproj">
-      <Project>{80be1e48-6dd4-4abc-8370-43d704ee608f}</Project>
-      <Name>UniTask.DOTween</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Linq.csproj">
-      <Project>{c69bc76a-d8d6-79c0-478d-8af3f832a47f}</Project>
-      <Name>UniTask.Linq</Name>
-    </ProjectReference>
     <ProjectReference Include="UniTask.csproj">
       <Project>{5beca5b5-4ecc-2ea7-ee95-dda9840cd8bd}</Project>
       <Name>UniTask</Name>

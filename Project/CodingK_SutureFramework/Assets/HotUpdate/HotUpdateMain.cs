@@ -1,8 +1,10 @@
+using System;
 using HybridCLR;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
+using Cysharp.Threading.Tasks;
 using UnityEngine;
 
 public class HotUpdateMain : MonoBehaviour
@@ -17,18 +19,29 @@ public class HotUpdateMain : MonoBehaviour
 
         gameObject.AddComponent<CreateByCode>();
 
-        Debug.Log($"[{GetType().FullName}] =======看到此条日志代表你成功运行了示例项目的热更新代码=======");
-#if UNITY_STANDALONE_WIN
-        File.WriteAllText("run.log", "ok", System.Text.Encoding.UTF8);
-        if (File.Exists("autoexit"))
-        {
-            Debug.Log("==== 本程序将于5秒后自动退出 ====");
-            Task.Run(async () =>
-            {
-                await Task.Delay(5000);
-                Application.Quit(0);
-            });
-        }
-#endif
+        
+        Debug.Log($"[{GetType().FullName}] =======看到此条日志代表你成功运行了示例项目的热更新代码 {DateTime.Now}=======");
+        Do();
+        Debug.Log($"这是Do方法后面的输出");
+        
+        
+// #if UNITY_STANDALONE_WIN
+//         File.WriteAllText("run.log", "ok", System.Text.Encoding.UTF8);
+//         if (File.Exists("autoexit"))
+//         {
+//             Debug.Log("==== 本程序将于5秒后自动退出 ====");
+//             Task.Run(async () =>
+//             {
+//                 await Task.Delay(5000);
+//                 Application.Quit(0);
+//             });
+//         }
+// #endif
+    }
+
+    public async UniTask Do()
+    {
+        await UniTask.DelayFrame(1);
+        Debug.Log("这是异步1帧后的输出");
     }
 }

@@ -737,6 +737,10 @@
       <Project>{f2f40ed0-6514-2de7-ced0-b48801a18658}</Project>
       <Name>YooAsset</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{5beca5b5-4ecc-2ea7-ee95-dda9840cd8bd}</Project>
+      <Name>UniTask</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

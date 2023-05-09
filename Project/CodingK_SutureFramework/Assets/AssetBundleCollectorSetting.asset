@@ -25,7 +25,7 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/Code
+      - CollectPath: Assets/AssetPackage/Code
         CollectorGUID: 21d59078db5d8d544a296928010ec645
         CollectorType: 0
         AddressRuleName: AddressByFileName
@@ -38,7 +38,7 @@ MonoBehaviour:
       AssetTags: 
       ActiveRuleName: EnableGroup
       Collectors:
-      - CollectPath: Assets/Prefabs
+      - CollectPath: Assets/AssetPackage/Prefabs
         CollectorGUID: d8ec75f040bd5f34d96274a6250ae096
         CollectorType: 0
         AddressRuleName: AddressByFileName

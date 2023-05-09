@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.cysharp.unitask": {
+      "version": "file:C:/Users/YAN JUNJIE/Downloads/UniTask-master/UniTask-master/src/UniTask/Assets/Plugins/UniTask",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {}
+    },
     "com.focus-creative-games.hybridclr_unity": {
       "version": "https://gitee.com/focus-creative-games/hybridclr_unity.git",
       "depth": 0,

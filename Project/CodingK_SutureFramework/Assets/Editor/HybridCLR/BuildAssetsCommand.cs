@@ -69,7 +69,7 @@ namespace HybridCLR.Editor
             BuildAssetBundles(GetAssetBundleTempDirByTarget(target), GetAssetBundleOutputDirByTarget(target), target);
         }
 
-        [MenuItem("HybridCLR/Build/Build HotDll And AOTDll Copy To StreamingAssets")]
+        [MenuItem("HybridCLR/Build/Build HotDll And AOTDll Copy To Code Folder")]
         public static void BuildAndCopyABAOTHotUpdateDlls()
         {
             BuildTarget target = EditorUserBuildSettings.activeBuildTarget;
@@ -96,8 +96,8 @@ namespace HybridCLR.Editor
         {
             var target = EditorUserBuildSettings.activeBuildTarget;
             string aotAssembliesSrcDir = SettingsUtil.GetAssembliesPostIl2CppStripDir(target);
-            string aotAssembliesDstDir = Application.streamingAssetsPath;
-
+            string aotAssembliesDstDir = Application.dataPath + @"/AssetPackage/code";//Application.streamingAssetsPath;
+        
             foreach (var dll in SettingsUtil.AOTAssemblyNames)
             {
                 string srcDllPath = $"{aotAssembliesSrcDir}/{dll}.dll";
@@ -117,7 +117,8 @@ namespace HybridCLR.Editor
             var target = EditorUserBuildSettings.activeBuildTarget;
 
             string hotfixDllSrcDir = SettingsUtil.GetHotUpdateDllsOutputDirByTarget(target);
-            string hotfixAssembliesDstDir = Application.streamingAssetsPath;
+            string hotfixAssembliesDstDir = Application.dataPath + @"/AssetPackage/code";//Application.streamingAssetsPath;
+            
             foreach (var dll in SettingsUtil.HotUpdateAssemblyFilesExcludePreserved)
             {
                 string dllPath = $"{hotfixDllSrcDir}/{dll}";
