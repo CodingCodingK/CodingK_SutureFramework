@@ -805,6 +805,18 @@
       <Project>{68e9987f-1b40-77a1-b54c-0e50d8c7e32a}</Project>
       <Name>com.logviewer.editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UniTask.DOTween.csproj">
+      <Project>{80be1e48-6dd4-4abc-8370-43d704ee608f}</Project>
+      <Name>UniTask.DOTween</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.Linq.csproj">
+      <Project>{c69bc76a-d8d6-79c0-478d-8af3f832a47f}</Project>
+      <Name>UniTask.Linq</Name>
+    </ProjectReference>
+    <ProjectReference Include="UniTask.TextMeshPro.csproj">
+      <Project>{8d012bbf-7f0a-4890-5f08-556090ea4225}</Project>
+      <Name>UniTask.TextMeshPro</Name>
+    </ProjectReference>
     <ProjectReference Include="Hotfix.csproj">
       <Project>{7f55447e-b48f-2776-12c0-360ee4b3bf07}</Project>
       <Name>Hotfix</Name>
@@ -817,29 +829,17 @@
       <Project>{f2f40ed0-6514-2de7-ced0-b48801a18658}</Project>
       <Name>YooAsset</Name>
     </ProjectReference>
-    <ProjectReference Include="BetterStreamingAssets.csproj">
-      <Project>{549e9865-1268-f054-5777-473f4be27bc4}</Project>
-      <Name>BetterStreamingAssets</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.TextMeshPro.csproj">
-      <Project>{8d012bbf-7f0a-4890-5f08-556090ea4225}</Project>
-      <Name>UniTask.TextMeshPro</Name>
+    <ProjectReference Include="UniTask.csproj">
+      <Project>{5beca5b5-4ecc-2ea7-ee95-dda9840cd8bd}</Project>
+      <Name>UniTask</Name>
     </ProjectReference>
     <ProjectReference Include="UniTask.Addressables.csproj">
       <Project>{00a1ec2a-b26b-f07c-c745-bbf9359822e9}</Project>
       <Name>UniTask.Addressables</Name>
     </ProjectReference>
-    <ProjectReference Include="UniTask.DOTween.csproj">
-      <Project>{80be1e48-6dd4-4abc-8370-43d704ee608f}</Project>
-      <Name>UniTask.DOTween</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.Linq.csproj">
-      <Project>{c69bc76a-d8d6-79c0-478d-8af3f832a47f}</Project>
-      <Name>UniTask.Linq</Name>
-    </ProjectReference>
-    <ProjectReference Include="UniTask.csproj">
-      <Project>{5beca5b5-4ecc-2ea7-ee95-dda9840cd8bd}</Project>
-      <Name>UniTask</Name>
+    <ProjectReference Include="BetterStreamingAssets.csproj">
+      <Project>{549e9865-1268-f054-5777-473f4be27bc4}</Project>
+      <Name>BetterStreamingAssets</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
